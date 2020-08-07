@@ -2,7 +2,6 @@ html {
   scroll-snap-type: y mandatory;
 }
 .app {
-  height: 100vh;
   background-color: black;
   color: white;
   display: grid;
@@ -12,11 +11,13 @@ html {
 .app__videos {
   position: relative;
   height: 800px;
-  border-radius: 20px;
+  border-radius: 15px;
   overflow: scroll;
   width: 80%;
   max-width: 500px;
   scroll-snap-type: y mandatory;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 /*Hide the scrollbar from chrome,safari and Opera*/

@@ -5,6 +5,7 @@
   height: 100%;
   scroll-snap-align: start;
   color: black;
+  margin-bottom: 15px;
 }
 
 .video__player {
@@ -39,6 +40,11 @@
   p {
     padding-top: 7px;
     font-size: 12px;
+  }
+  svg.MuiSvgIcon-root.videoFooter__icon {
+    position: absolute !important;
+    bottom: 9px;
+    left: -7px;
   }
 }
 .videoFooter__icon {
