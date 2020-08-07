@@ -62,3 +62,15 @@
     transform: rotate(360deg);
   }
 }
+
+.videoSidebar {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: white;
+}
+
+.videoSidebar__button {
+  padding: 15px;
+  text-align: center;
+}
